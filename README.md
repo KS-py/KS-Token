@@ -1,4 +1,4 @@
-#KS TOKEN
+# KS TOKEN
 
 Sepolia Testnet Ethereum token built on top of the OpenZeppelin framework for added functionality and security.
 Deployed with a market cap of 100 million tokens of which 70 million are allocated to the contract owner.
@@ -6,7 +6,7 @@ Deployed with a market cap of 100 million tokens of which 70 million are allocat
 Check out the deployed token contract information at sepolia.etherscan.io
 Token address: 0xa5f616cA4A391172110DB98F5FE7f1223C0966D0
 
-#NPM INSTALL and other info
+# NPM INSTALL and other info
 
 After cloning this repo,
 run an `npm i` in a cmd window opened in the current working directory, where the package.json is located.
@@ -20,7 +20,7 @@ We then create functions to mint some tokens as block rewards and set that block
 
 The access modifier limits access to some function calls to only the owner of the contract.
 
-#HARDHAT STEPS
+# HARDHAT STEPS
 After all is done in the smart contract, it's time to set things up in Hardhat.
 Go to hardhat.config.js and make sure the solidity version matches that of the smart contract
 
@@ -31,7 +31,7 @@ Some tests have been created to assert some token functionality and spot irregul
 `npx hardhat test` to run these tests.
 You can add some of the tests for other functionality 
 
-#Deployment
+# Deployment
 Create a .env file in your working directory with the following content:
 PRIVATE_KEY=private_key_goes_here
 INFURA_SEPOLIA_ENDPOINT=infura_endpoint_goes_here
